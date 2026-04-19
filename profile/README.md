@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="https://gitresume.co">
-    <img src="https://gitresume.co/og.png" alt="GitResume — Write YAML. Push to GitHub. Get your resume." width="800" />
-  </a>
-</p>
+https://github.com/user-attachments/assets/728e3ebf-06df-4db3-8a43-86e9070ecc58
 
 <h3 align="center">Resume as Code</h3>
 
