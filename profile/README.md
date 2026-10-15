@@ -1,4 +1,4 @@
-https://github.com/user-attachments/assets/728e3ebf-06df-4db3-8a43-86e9070ecc58
+https://github.com/user-attachments/assets/57cb6135-5c95-4230-ab95-9c98574c2d6c
 
 <h3 align="center">Resume as Code</h3>
 
