@@ -1,0 +1,66 @@
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        **This discussion is public.** Don't paste personal details from your resume, email addresses, or anything you wouldn't put on the open web.
+        For billing, account, or privacy issues, email contact@gitresume.co instead.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did it happen?
+      options:
+        - Dashboard
+        - Builds from GitHub
+        - Uploaded projects
+        - PDF output
+        - Public resume page
+        - Resume Check
+        - AI connector (MCP)
+        - Custom domain
+        - Sign-in and account
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect to see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link to the page (optional)
+      description: Your public resume URL or the dashboard page, if it helps us find the problem.
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and OS (optional)
+      placeholder: Chrome 141 on macOS
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (optional)
+      description: Blur any personal details before uploading.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I've removed any personal information I don't want to make public.
+          required: true

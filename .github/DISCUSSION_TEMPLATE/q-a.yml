@@ -1,0 +1,19 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the [docs](https://gitresume.co/docs/) first, your answer may already be there.
+
+        **This discussion is public.** For billing, account, or privacy questions, email contact@gitresume.co.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried? (optional)
+      description: If it's about your resume YAML, paste only the relevant part and remove personal details.
+      render: yaml
